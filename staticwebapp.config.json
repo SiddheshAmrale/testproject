@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "route": "/profile",
+      "methods": [
+        "get"
+      ],
+      "redirect": "/profile2",
+      "statusCode": 200,
+      "allowedRoles": [
+        "anonymous"
+      ]
+    }
+  ]
+}
